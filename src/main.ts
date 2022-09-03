@@ -1,19 +1,15 @@
 import { NestFactory } from '@nestjs/core';
-import { Transport } from '@nestjs/microservices';
-import { URL_CONNECTION } from '@shared/config/env';
-import { NO_ACK, QUEUE_NAME, TRANSPORTER } from '@shared/config/env';
 import { AppModule } from './app.module';
+import TimeoutInterceptor from '@shared/interceptors/timeout.interceptor';
+import HttpExceptionFilter from '@shared/exception-filters/exception.filter';
+import { PORT } from '@shared/config/env';
 
 async function bootstrap() {
-  const app = await NestFactory.createMicroservice(AppModule, {
-    transport: Transport[TRANSPORTER],
-    options: {
-      urls: [URL_CONNECTION],
-      queue: QUEUE_NAME,
-      noAck: NO_ACK,
-    },
-  });
+  const app = await NestFactory.create(AppModule);
+  app.useGlobalInterceptors(new TimeoutInterceptor());
 
-  await app.listen();
+  app.useGlobalFilters(new HttpExceptionFilter());
+
+  await app.listen(PORT);
 }
 bootstrap();
