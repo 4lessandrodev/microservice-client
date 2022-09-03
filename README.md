@@ -151,6 +151,26 @@ Acesse o painel
 
 ---
 
+Endpoints disponíveis
+
+Criar um status
+
+```sh
+
+$ POST http://localhost:3000/ping
+
+```
+
+Obter o status
+
+```sh
+
+$ GET http://localhost:3000/pong
+
+```
+
+---
+
 ## Variáveis
 
 As variáveis de ambiente devem ser definidas no arquivo
