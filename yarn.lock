@@ -2325,10 +2325,10 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
-einstein-cli@^0.0.16:
-  version "0.0.16"
-  resolved "https://registry.yarnpkg.com/einstein-cli/-/einstein-cli-0.0.16.tgz#cdb8859e8558f0be3e533f65b61bd6bd53a1881b"
-  integrity sha512-IBVdZcWAj/oF+yw2EHKxRBzWWokdOcBp5RUuakWcZaiLsNTxHAgLZNEhxrsY6ZYrVkJeOSriqq6oafbwYfhENA==
+einstein-cli@^0.0.18:
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/einstein-cli/-/einstein-cli-0.0.18.tgz#24eacb7bdb8c73ab84cd8947ef95ff882e4973ad"
+  integrity sha512-4pmlO9NSYcMZGrURjcjwF8YnK/3J5nY64UYgh6hNt4MrijWt24gq2o4KEflC6mK63Wf9SHsn81ZdoHcqqlwUVA==
   dependencies:
     module-alias "^2.2.2"
     tar "^6.1.11"
