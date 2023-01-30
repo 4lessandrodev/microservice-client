@@ -34,7 +34,7 @@
     "reflect-metadata": "^0.1.13",
     "rimraf": "^4.1.1",
     "rxjs": "^7.8.0",
-    "types-ddd": "^3.4.5"
+    "types-ddd": "^3.5.0"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.4.2",
