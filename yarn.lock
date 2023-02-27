@@ -882,10 +882,10 @@
     iterare "1.2.1"
     tslib "2.5.0"
 
-"@nestjs/platform-express@^9.3.2":
-  version "9.3.2"
-  resolved "https://registry.yarnpkg.com/@nestjs/platform-express/-/platform-express-9.3.2.tgz#1cb75b774fbb45dd09c7dc18e04fd5f4ba65284c"
-  integrity sha512-hzLfUcJIFw8NIPlG88QJr+uSgJzkBkhxVsHGtRs+rNShzlMNfX63CPbkI4yfG4Eq0s8oYe598p6OE5O1z924Dg==
+"@nestjs/platform-express@^9.3.9":
+  version "9.3.9"
+  resolved "https://registry.yarnpkg.com/@nestjs/platform-express/-/platform-express-9.3.9.tgz#557ace8589b54d4ee7bad87a1247a521058395d7"
+  integrity sha512-f8ja2sYuDGj2QSMmjg05n3WF19wJG5yTiYxRi64nsu5GKL0qLM1LzxNemehkni/knExlvF2bDpbKKpna9nC1JA==
   dependencies:
     body-parser "1.20.1"
     cors "2.8.5"
